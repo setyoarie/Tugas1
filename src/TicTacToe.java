@@ -39,7 +39,7 @@ public class TicTacToe extends JPanel {
                 buttonClicked.setText("O");
 
             if (checkForWin() == true) {
-                JOptionPane.showConfirmDialog(null, "Mau Main Lagi?.");
+                JOptionPane.showConfirmDialog(null, "Apakah anda ingin bermain kembali?.");
                 resetButtons();
             }
 
